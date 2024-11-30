@@ -2,11 +2,9 @@
 
 ## Description:
 
-This is the first project of the **Foundations Course** of **The Odin Project** curriculum. It is intended to put in practice the knowledge acquired on basic **HTML** tags and structure, **GIT** version control and **GitHub** repositories management into a simple website with multiple pages. Since CSS and JavaScript have not been covered yet at this point of the curriculum, this project is made entirely on HTML. Future updates will improve the visual design and functionality of this website.
+This is the first project of the **Foundations Course** of **The Odin Project** curriculum. It is intended to put in practice the knowledge acquired on basic **HTML** tags and structure, **GIT** version control, **GitHub** repositories management, and very basic CSS styling into a simple website with multiple pages. Since JavaScript have not been covered yet at this point of the curriculum, this project is made entirely on HTML and CSS. Future updates will improve the visual design and functionality of this website.
 
-## Features:
-
-### Preview
+## Preview:
 
 Open in browser: [odin-recipes site](https://enriquejjoaquinh.github.io/odin-recipes/)
 
@@ -17,6 +15,7 @@ Open in browser: [odin-recipes site](https://enriquejjoaquinh.github.io/odin-rec
     - Two paragraphs describing the dish
     - The ingredients list in an unordered list
     - The cooking steps in an ordered list
+- The style of the pages is defined by a single css file, this way consistency is maintained between pages
 
 ## What did I learn?
 - How to create basic HTML page structures, using basic tags to display content, such as headers, paragraphs, anchor tags, images, and unordered and ordered lists.
@@ -24,3 +23,5 @@ Open in browser: [odin-recipes site](https://enriquejjoaquinh.github.io/odin-rec
 - How to write useful commit messages
 - How to create and update GitHub repositories using GIT locally
 - How to write a README.me file and what function it has in a GitHub repository
+- How to change basic style features in the website, such as color, align, and typography, using external CSS
+- How to use CSS selectors paired with order and specificity rules to properly define the style of each element in the website
