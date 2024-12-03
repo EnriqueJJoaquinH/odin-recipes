@@ -1,29 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
-    background-color: #FCFAEE;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #507687;
     color: #384B70;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
-    line-height: 125%;
+    line-height: 150%;
 }
 
 h1,
-h2,
-h5 {
-    font-family: 'Courier New', Courier, monospace;
+h2 {
     color: #B8001F;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 35px 40px 20px;
+}
+
+h4 {
+    margin: 20px 0;
 }
 
 h5 {
     color: #507687;
+    margin-top: 10px;
 }
 
-.menu li{
+p {
+    margin: 15px 0;
+}
+
+.content {
+    background-color: #FCFAEE;
+    border: 5px solid #384B70;
+    border-radius: 50px;
+    margin: 100px auto;
+    padding: 50px;
+    width: 60%;
+}
+
+.menu ul{
     font-size: 2rem;
     line-height: 150%;
+    margin: 50px auto 0;
+    padding: 0;
+    text-align: left;
+    width: fit-content;
 }
 
 .menu a {
@@ -37,14 +69,16 @@ h5 {
 
 .dish-image {
     text-align: center;
+    margin: 50px 0;
 }
 
 .dish-image img {
-    height: 500px;
-    width: auto;
+    border-radius: 25px;
+    max-width: 100%;
 }
 
 .description {
     font-size: 1.25rem;
     line-height: 150%;
+    margin: 50px 0;
 }
